@@ -122,7 +122,6 @@ function Experience() {
       </div>
 
       <hr />
-      <br />
     </div>
   );
 }
