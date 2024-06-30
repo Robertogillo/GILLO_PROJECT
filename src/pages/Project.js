@@ -67,13 +67,6 @@ function Project() {
           </div>
         </Col> */}
       </Row>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
-      <br></br>
               <hr></hr>
     </Container>
   );
