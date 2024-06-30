@@ -15,9 +15,6 @@ function Contact() {
     <li><strong><b>Instagram:</b></strong> <a href="https://www.instagram.com/gillo.roberto/" target="_blank" rel="noopener noreferrer">roberto.gillo</a></li>
     <li><strong><b>Contact Number:</b></strong> 09369423126</li>
 </ul>
-
-      <hr></hr>
-      <br></br>
     </Container>
   );
 }
