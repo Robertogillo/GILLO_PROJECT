@@ -4,7 +4,11 @@
 
 .nav-link {
   font-weight: 400;
+<<<<<<< HEAD
   color: green;
+=======
+  color:green;
+>>>>>>> 9474d540d9cbdc355f35046b7352638119c10f5a
 }
 
 .nav-route .nav-link {
