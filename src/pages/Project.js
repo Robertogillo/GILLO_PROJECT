@@ -81,9 +81,8 @@ function Project() {
         </div>
       </Container>
 
-<<<<<<< HEAD
+
       <hr />
-=======
           <div className="p-1 text-white">
             <b>This sample website contains a collection of Haircut Styling.</b>
           </div>
@@ -132,7 +131,6 @@ function Project() {
         </Col> */}
       </Row>
               <hr></hr>
->>>>>>> 9474d540d9cbdc355f35046b7352638119c10f5a
     </Container>
   );
 }
