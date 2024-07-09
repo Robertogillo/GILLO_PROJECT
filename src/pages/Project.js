@@ -83,56 +83,6 @@ function Project() {
 
 
       <hr />
-            <Row>
-          <Col>
-          <div className="p-1 text-white">
-            <b>This sample website contains a collection of Haircut Styling.</b>
-          </div>
-          <div className="project-image">
-            <img
-              src={webicodehelp}
-              className="transform-image float-end p-5"
-              alt="Haircut Styling"
-            />
-          </div>
-        </Col>
-
-        <Col className="col-12 bg-black mt-4 overflow-hidden position-relative">
-          <div className="p-4 position-absolute top-25 start-25">
-            <button className="mt-3 text-white fw-bold btn btn-outline-success btn btn-dark">
-              CPSU Clinic Management System
-            </button>
-          </div>
-          <div className="p-1 text-white">
-            <b>
-            This system CPSU CLINIC was our capstone project. We developed this
-            system to automate the manual process of the Clinic in the University.
-            </b>
-          </div>
-          <div className="project-image">
-            <img
-              src={rfid}
-              className="transform-image float-end p-5"
-              alt=""
-            />
-          </div>
-        </Col>
-        {/* <Col className="col-12 bg-black mt-4 overflow-hidden position-relative">
-          <div className="p-5 position-absolute top-25 start-25">
-            <h3 className="text-white fw-bold btn btn-outline-success btn btn-dark">
-              <i>Personal Portfolio</i>
-            </h3>
-          </div>
-          <div className="project-image">
-            <img
-              src={portfolio}
-              className="transform-image float-end p-5"
-              alt=""
-            />
-          </div>
-        </Col> */}
-      </Row>
-              <hr></hr>
     </Container>
   );
 }
