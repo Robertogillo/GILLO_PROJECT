@@ -83,6 +83,7 @@ function Project() {
 
 
       <hr />
+          <Col>
           <div className="p-1 text-white">
             <b>This sample website contains a collection of Haircut Styling.</b>
           </div>
