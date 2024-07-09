@@ -2,15 +2,15 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import sortingImage from "../images/sorting.jpg";
 import troubleImage from "../images/trouble.jpg";
-import incodeImage from "../images/incodes.jpg";
-import ncodeImage from "../images/ncode.jpg";
+import incodessImage from "../images/incodess.png";
+import ncodesImage from "../images/ncodes.png";
 
 function Experience() {
   return (
-    <div className="container px-5 mx-4">
+    <div className="container px-lg-5 mx-lg-4">
       <h1 className="abouts">Experience</h1>
       <hr />
-      
+
       <div className="row">
         <div className="col-lg-6 mb-4">
           <div className="card h-100">
@@ -51,12 +51,14 @@ function Experience() {
             <div className="card-body">
               <h2>Internship</h2>
               <h5 className="card-title">Philpost Kabankalan Branch</h5>
-              <img
-                src={sortingImage}
-                style={{ width: '100%' }}
-                className="img-fluid border rounded-4 transform-images"
-                alt="Sorting"
-              />
+              <div className="overflow-hidden">
+                <img
+                  src={sortingImage}
+                  style={{ width: '100%' }}
+                  className="img-fluid border rounded-4 transform-images"
+                  alt="Sorting"
+                />
+              </div>
               <div className="text-center">
                 <button className="btn btn-light mt-1 text-center">Performed data sorting</button>
               </div>
@@ -69,12 +71,14 @@ function Experience() {
             <div className="card-body">
               <h2>Internship</h2>
               <h5 className="card-title">Philpost Kabankalan Branch</h5>
-              <img
-                src={ncodeImage}
-                style={{ width: '100%', height: '22.5rem' }}
-                className="img-fluid border rounded-4 transform-images"
-                alt="Ncode"
-              />
+              <div className="overflow-hidden">
+                <img
+                  src={ncodesImage}
+                  style={{ width: '100%', height: '22.5rem' }}
+                  className="img-fluid border rounded-4 transform-images"
+                  alt="Ncode"
+                />
+              </div>
               <div className="text-center">
                 <button className="btn btn-light mt-1 text-center">Performed data tracking</button>
               </div>
@@ -89,35 +93,39 @@ function Experience() {
             <div className="card-body">
               <h2>Internship</h2>
               <h5 className="card-title">Philpost Kabankalan Branch</h5>
-              <img
-                src={troubleImage}
-                style={{ width: '100%' }}
-                className="img-fluid border rounded-4 transform-images"
-                alt="Trouble"
-              />
-               <div className="text-center">
+              <div className="overflow-hidden">
+                <img
+                  src={troubleImage}
+                  style={{ width: '100%' }}
+                  className="img-fluid border rounded-4 transform-images"
+                  alt="Trouble"
+                />
+              </div>
+              <div className="text-center">
                 <button className="btn btn-light mt-1 text-center">Performed troubleshooting</button>
               </div>
             </div>
           </div>
         </div>
         <div className="col-lg-6 mb-4">
-  <div className="card">
-    <div className="card-body">
-      <h2>Internship</h2>
-      <h5 className="card-title">Philpost Kabankalan Branch</h5>
-      <img
-        src={incodeImage}
-        style={{ width: '100%', height: '22.5rem' }}
-        className="img-fluid border rounded-4 transform-images"
-        alt="Incode"
-      />
-      <div className="text-center">
-        <button className="btn btn-light mt-1"> Data encoding in different Microsoft Office applications</button>
-      </div>
-    </div>
-  </div>
-</div>
+          <div className="card">
+            <div className="card-body">
+              <h2>Internship</h2>
+              <h5 className="card-title">Philpost Kabankalan Branch</h5>
+              <div className="overflow-hidden">
+                <img
+                  src={incodessImage}
+                  style={{ width: '100%', height: '22.5rem' }}
+                  className="img-fluid border rounded-4 transform-images"
+                  alt="Incode"
+                />
+              </div>
+              <div className="text-center">
+                <button className="btn btn-light mt-1"> Data encoding in different Microsoft Office applications</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </div>
 
