@@ -109,7 +109,7 @@ function Home() {
 
               <Col className="col-12 bg-black mt-4 overflow-hidden position-relative">
                 <Nav.Link as={NavLink} to="/clinic-management-system" target="_blank" rel="noreferrer">
-                  <div className="p-4 position-absolute top-25 start-25">
+                  <div className="p-4 position-absolute top-15 start-15">
                     <button className="text-white fw-bold btn btn-outline-success btn btn-dark">
                       CPSU Clinic Management System
                     </button>
