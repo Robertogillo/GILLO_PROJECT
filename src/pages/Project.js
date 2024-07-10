@@ -55,7 +55,7 @@ function Project() {
                     This system CPSU CLINIC was our capstone project. We developed this
                     system to automate the manual process of the Clinic in the University.
                 </div>
-                <div className="p-4 position-absolute top-10 start-0 custom-button-container btn btn-center">
+                <div className="p-4 position-absolute top-15 start-15 custom-button-container btn btn-center">
                   <button className="text-white btn btn-outline-success btn-dark custom-button ">
                     CPSU Clinic Management System
                   </button>
